@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+:root{
+    --font-ubuntu:'Ubuntu',monospace;
+    --color-border:#e5e5e5;
+}
+
+.font-ubuntu{
+    font: normal 500 16px var(--font-ubuntu);
+}
+
+#login{
+  
+    background: url("../images/register_login\ background.jpg")no-repeat;
+    background-size: cover;
+}
+
+#log-form input[type='text'],
+#log-form input[type='password']{
+    border: none;
+    border-radius: unset;
+    border-bottom: 1px solid var(--color-border);
+    font-family: var(--font-ubuntu);
+}
+
+#log-form input[type='text'],
+#log-form input[type='password']{
+ outline: none;
+ box-shadow: none;
+}
+
